@@ -29,7 +29,7 @@ def suma():
         resultado.set(float(num1.get()) + float(num2.get()))
         mostrarResultados()
     except:
-        ALERTA.showerror("ERROR!","ERROR! Ingresa solo números. Intenta de nuevo... 😑")
+        ALERTA.showerror("ERROR!","ERROR! Ingresa solo números. Intenta de nuevo... ")
 
 
 def resta():
@@ -37,7 +37,7 @@ def resta():
         resultado.set(float(num1.get()) - float(num2.get()))
         mostrarResultados()
     except:
-        ALERTA.showerror("ERROR!","ERROR! Ingresa solo números. Intenta de nuevo... 😑")
+        ALERTA.showerror("ERROR!","ERROR! Ingresa solo números. Intenta de nuevo... ")
 
 
 def multiplicar():
@@ -45,7 +45,7 @@ def multiplicar():
         resultado.set(float(num1.get()) * float(num2.get()))
         mostrarResultados()
     except:
-        ALERTA.showerror("ERROR!","ERROR! Ingresa solo números. Intenta de nuevo... 😑")
+        ALERTA.showerror("ERROR!","ERROR! Ingresa solo números. Intenta de nuevo...")
 
 
 def dividir():
@@ -53,7 +53,7 @@ def dividir():
         resultado.set(float(num1.get()) / float(num2.get()))
         mostrarResultados()
     except:
-        ALERTA.showerror("ERROR!","ERROR! Ingresa solo números. Intenta de nuevo... 😑")
+        ALERTA.showerror("ERROR!","ERROR! Ingresa solo números. Intenta de nuevo...")
 
 
 def mostrarResultados():
